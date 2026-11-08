@@ -1,0 +1,16 @@
+[package]
+name = "sift"
+version = "0.1.0"
+edition = "2024"
+description = "A clean, native SQLite viewer for macOS, built with Rune."
+
+[dependencies]
+rune = { path = "vendor/rune/crates/rune", features = ["native-file-dialog"] }
+rune-kit = { path = "vendor/rune/crates/rune-kit" }
+rusqlite = { version = "0.32", features = ["bundled"] }
+
+[profile.dev.package."*"]
+opt-level = 2
+
+[features]
+hot = ["rune/hot"]
