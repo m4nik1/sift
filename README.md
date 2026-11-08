@@ -98,3 +98,7 @@ cargo run --release -- --snap shots/demo-dark.png --scene demo --theme dark --sc
 ```
 
 The available scenes are `demo`, `structure`, `sql` and `welcome`.
+
+## License
+
+[MIT](LICENSE)

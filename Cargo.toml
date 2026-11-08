@@ -3,6 +3,7 @@ name = "sift"
 version = "1.0.0"
 edition = "2024"
 description = "A clean, native SQLite viewer for macOS, built with Rune."
+license = "MIT"
 
 [dependencies]
 rune = { path = "vendor/rune/crates/rune", features = ["native-file-dialog"] }
